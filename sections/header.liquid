@@ -1,6 +1,6 @@
 {% assign main_menu_linklist = linklists[section.settings.menu].links %}
-{{ shop.customer_accounts_enabled }}
-<header class="bg-light">
+
+<header class="bg-light position-fixed top-0 w-100 start-0">
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light ">
       <div class="container-fluid">
@@ -90,6 +90,18 @@
       "label": "Menu Lists",
       "default": "main-menu",
       "info": "This Is Menu Link Lists"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Go Homepage",
+      "info": "This is Back Link"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button Url"
     }
   ]
 }
