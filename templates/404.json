@@ -1,9 +1,25 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-    "name": "Template 404",
-    "sections":{
-        "template": {
-            "type": "template-404"
-        }
-    },
-    "order" : ["template"]
+  "sections": {
+    "template": {
+      "type": "template-404",
+      "settings": {
+        "titel": "404",
+        "subtitle_title": "The page that you're looking for is not found",
+        "button_text": "Go to Home Page",
+        "button_url": "shopify://collections/frontpage"
+      }
+    }
+  },
+  "order": [
+    "template"
+  ]
 }
